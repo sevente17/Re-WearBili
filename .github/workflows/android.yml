@@ -19,7 +19,7 @@ jobs:
       uses: actions/setup-java@v3
       with:
         java-version: '17'
-        
+        distribution: 'temurin'
     - name: init libs
       run: git submodule update
     - name: Grant execute permission for gradlew
